@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  font-family: gotham Rounded, sans-serif;
+  font-weight: normal;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to right, #20203d, #3636e4);
+  color: wheat;
+}
+
+
+/* ===== tictactoe game ===== */
+
+#gameContainer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 10px solid salmon;
+  box-shadow: 5px 5px 10px 10px salmon;
+}
+#cellContainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  margin: auto;
+  width: 230px;
+}
+.cell {
+  width: 85px;
+  height: 85px;
+  border: 3px solid salmon;
+  background-color: rgba(244, 165, 96, 0.137);
+  font-size: 60px;
+  line-height: 70px;
+}
+#restartBtn {
+  padding: 10px 16px;
+  border: 2px solid salmon;
+  background-color: transparent;
+  color: salmon;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+#restartBtn:hover {
+  background-color: seashell;
+  transition: 1s;
+}
