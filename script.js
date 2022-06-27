@@ -1,8 +1,12 @@
 // ========  tic tac toe game ======
 
+// gaping all the html element that we need 
+
 const cells = document.querySelectorAll(".cell");
 const statusText = document.querySelector("#statusText");
 const restartBtn = document.querySelector("#restartBtn");
+
+// win condition operation
 
 const winConditions = [
   [0, 1, 2],
